@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#eef8ff">
+  <meta name="description" content="חדר המוחות החדש של גמ״ח ברכת אברהם — שאלה אחת, תשובות מבינות שונות וסיכום משותף.">
+  <title>חדר המוחות | ברכת אברהם</title>
+  <style>
+    :root{--ink:#193554;--muted:#536c84;--blue:#1167be;--teal:#009f9c;--purple:#684dc5;--gold:#ffbd47;--line:#d7e6f3;--paper:#fff;--shadow:0 12px 32px rgba(29,84,137,.1);font-family:Arial,"Noto Sans Hebrew",sans-serif;color:var(--ink);color-scheme:light}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 90% 2%,#cceefe 0,transparent 40%),radial-gradient(ellipse at 8% 38%,#e9dfff 0,transparent 40%),#f2f8fd;overflow-x:hidden}button,input,textarea,select{font:inherit}button{cursor:pointer}button:disabled{opacity:.52;cursor:not-allowed}a{color:var(--blue)}.wrap{max-width:1100px;width:100%;margin:0 auto;padding:18px 16px 30px}.mast{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:13px;flex-wrap:wrap}.brand{font-size:18px;font-weight:800}.tiny{font-size:14px;color:var(--muted)}.hero{border-radius:27px;background:linear-gradient(115deg,#0e80cc,#375fcc 55%,#845bd1);padding:26px;box-shadow:0 16px 34px #2868c032;color:white;position:relative;overflow:hidden}.hero:after{content:"✦";position:absolute;left:26px;top:4px;font-size:125px;opacity:.16;pointer-events:none}.hero h1{font-size:clamp(36px,8vw,62px);margin:8px 0 6px;line-height:1.13;position:relative}.hero p{font-size:clamp(18px,3vw,22px);margin:6px 0 12px;max-width:650px;line-height:1.5;position:relative}.chip{display:inline-block;border:1px solid #ffffff66;background:#ffffff22;padding:6px 12px;border-radius:20px;font-size:14px;font-weight:800}.hero-line{display:flex;gap:8px;flex-wrap:wrap;position:relative}.stack{display:grid;gap:16px;margin-top:16px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:23px;padding:22px;box-shadow:var(--shadow);min-width:0}.panel h2{font-size:clamp(22px,4vw,27px);margin:0 0 10px}.sub{color:var(--muted);font-size:16px;line-height:1.5;margin:0 0 17px}.statusbar{display:flex;gap:12px;justify-content:space-between;align-items:center;flex-wrap:wrap;border-radius:14px;background:#f0f8ff;border:1px solid #cfe4f4;padding:12px 14px;font-size:17px;font-weight:700}.tag{font-size:14px;font-weight:800;display:inline-block;padding:4px 9px;border-radius:999px;background:#ecf3fa;color:#45617a;white-space:normal}.tag.ok{background:#dff7ee;color:#046344}.tag.error{background:#ffebec;color:#ab2841}.tag.busy{background:#fff5d7;color:#89610e}.btn{border:0;border-radius:13px;min-height:52px;padding:12px 17px;font-size:18px;font-weight:800;display:inline-flex;justify-content:center;align-items:center;gap:8px;text-align:center;max-width:100%}.btn.primary{background:linear-gradient(105deg,#00a5a3,#137acb);color:white;box-shadow:0 7px 18px #0388be32}.btn.violet{background:linear-gradient(105deg,#6353cf,#8c58d1);color:white}.btn.light{background:#eaf4ff;border:1px solid #c2e0f5;color:#195f9b}.btn.stop{background:#fff0f0;color:#a43044;border:1px solid #ffd2d9}.btn.gold{background:#ffd277;color:#503817}.controls{display:flex;align-items:stretch;gap:10px;flex-wrap:wrap;margin-top:12px}.controls .btn{flex:1 1 190px}.controls.small .btn{flex:1 1 140px;min-height:45px;font-size:15px;padding:9px 12px}.formrow{display:flex;gap:12px;flex-wrap:wrap;align-items:end}.formrow>div{flex:1 1 180px}label{font-weight:800;font-size:17px;display:block;margin-bottom:8px}textarea,select{display:block;background:#fbfdff;color:var(--ink);border:2px solid #bed9ee;border-radius:14px;padding:14px;width:100%;font-size:19px;line-height:1.6;outline-color:#289bd5}textarea{min-height:150px;resize:vertical}select{min-height:52px}textarea::placeholder{color:#7f96a9}.notice{background:#fff8e8;border:1px solid #ffe1a5;color:#79500b;padding:12px 15px;border-radius:13px;font-size:16px;line-height:1.55;margin:15px 0}.provider-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}.model{min-width:0;border:1px solid #d6e6f2;border-radius:17px;padding:15px;background:linear-gradient(#fff,#f9fcff);position:relative}.model.claude{border-color:#eecba8;background:linear-gradient(#fff7ee,#fff)}.model-head{display:flex;justify-content:space-between;gap:8px;align-items:start}.model .name{font-weight:900;font-size:20px;margin:0;line-height:1.25}.model .model-id{font-size:12px;color:#526d81;overflow-wrap:anywhere;line-height:1.5;margin-top:8px;direction:ltr;text-align:left}.model .reply{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65;font-size:16px;border-top:1px solid #e0eaf3;margin-top:12px;padding-top:12px;max-height:340px;overflow:auto}.model .reply:empty{display:none}.model .choose{display:flex;align-items:center;gap:8px;margin:12px 0 0;font-size:15px;cursor:pointer}.model .choose input{width:20px;height:20px;accent-color:#1975bc}.model .model-provider{color:var(--muted);font-size:13px;margin-top:5px}.live{font-size:17px;font-weight:800;margin:12px 0;white-space:pre-wrap;overflow-wrap:anywhere}.answer{font-size:18px;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.75;background:#f6fbff;border:1px solid #d8eaf6;border-radius:14px;padding:15px;min-height:80px}.hidden{display:none!important}.history{display:flex;flex-direction:column;gap:8px}.history button{border:1px solid #d6e6f2;background:#f5faff;border-radius:12px;padding:11px;text-align:right;color:var(--ink);font-size:16px}.history small{color:var(--muted)}footer{text-align:center;font-size:14px;color:#566e80;line-height:1.8;padding:22px 8px}.progress{height:14px;background:#e3eff8;border-radius:20px;overflow:hidden}.progress>div{height:100%;background:linear-gradient(90deg,#42b5ed,#40d7b6);width:0%;transition:width .2s}.sectiontop{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}.noshrink{flex-shrink:0}.link{text-decoration:underline;color:var(--blue);background:none;border:0;padding:4px;font-size:15px}.bottom-note{font-size:14px;color:#566e80}.sr-only{position:absolute;clip:rect(0,0,0,0);width:1px;height:1px;overflow:hidden}
+    .safe-mode{display:flex;align-items:center;gap:10px;padding:13px;margin:12px 0;border-radius:12px;border:1px solid #9cdcc5;background:#effcf6;font-weight:800;line-height:1.5}.safe-mode input{width:23px;height:23px;flex:0 0 23px;accent-color:#007e64}
+    @media(max-width:820px){.provider-list{grid-template-columns:repeat(2,minmax(0,1fr))}.wrap{padding:12px}.panel{padding:18px}.hero{padding:22px}}
+    @media(max-width:540px){.provider-list{grid-template-columns:1fr}.model{padding:16px}.mast{gap:5px}.hero{border-radius:22px}.panel{border-radius:19px}.controls .btn{flex:1 1 100%}.controls.small .btn{flex:1 1 42%}.statusbar{font-size:15px}.brand{font-size:16px}}
+    @media(prefers-reduced-motion:reduce){*,*:after{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+  <script src="https://js.puter.com/v2/" defer></script>
+</head>
+<body>
+<main class="wrap">
+  <div class="mast"><div class="brand">בס״ד · גמ״ח ברכת אברהם</div><span class="tiny">כתובת היעד: avi.birkatavraham.com</span></div>
+  <header class="hero"><div class="hero-line"><span class="chip">🧠 חדר המוחות — גרסה חדשה</span><span class="chip">עברית מלאה</span></div><h1>מחשבה אחת. הרבה מוחות.</h1><p>כותבים שאלה אחת, מקבלים תשובות אמיתיות ממודלים שונים — ואז יוצרים סיכום משותף.</p></header>
+  <div class="stack">
+    <section class="panel" aria-label="מצב חיבור">
+      <div class="sectiontop"><h2>חיבור הבינות</h2><span id="netTag" class="tag busy" role="status">טוען...</span></div>
+      <p class="sub">הבינות פועלות דרך חשבון Puter שלך. לא מכניסים כאן מפתחות API או סיסמאות של Claude.</p>
+      <div class="statusbar"><span id="connection">בודק אם שירות הבינות זמין...</span><span id="countTag" class="tag">0 מודלים זוהו</span></div>
+      <div class="controls"><button class="btn primary" type="button" id="login">התחבר לחשבון Puter</button><button class="btn light" type="button" id="load">בדוק וחבר בינות</button></div>
+      <div class="notice"><b>חשוב לדעת:</b> חשבון Claude Pro או ChatGPT Plus לא מחבר אוטומטית את המנוי ליישום הזה. ל-Puter יש מכסה חינמית התחלתית, ולאחריה שימוש במודלים (גם Claude) עשוי לצרוך קרדיטים או לדרוש תשלום. לפני שליחת שאלה למודלים שאינם חינמיים יופיע אישור. אין רכישות אוטומטיות דרך חדר המוחות.</div>
+    </section>
+    <section class="panel" aria-label="שאלה חדשה">
+      <h2>מה תרצה לשאול?</h2><label for="question">כתוב כאן משימה אחת לכל הבינות</label>
+      <textarea id="question" maxlength="5000" placeholder="לדוגמה: הצע תוכנית מעשית לגיוס חמישה שותפים מתנדבים בכל עיר, ללא תרומות כספיות וללא התחייבות לעזרה מובטחת."></textarea>
+      <div class="formrow"><div><label for="askCount">כמה בינות להפעיל?</label><select id="askCount"><option value="1">בינה אחת</option><option value="3" selected>3 בינות — בדיקה ראשונה</option><option value="5">5 בינות</option><option value="10">10 בינות</option><option value="15">עד 15 בינות</option><option value="20">עד 20 בינות</option><option value="30">עד 30 בינות</option><option value="40">עד 40 בינות</option></select></div><div><label for="maxTokens">אורך תשובה למודל</label><select id="maxTokens"><option value="350">קצר</option><option value="700" selected>בינוני</option><option value="1100">מפורט</option></select></div></div>
+      <label class="safe-mode" for="freeOnly"><input id="freeOnly" type="checkbox" checked> 🔒 מצב בטוח: לבחור רק דגמים המסומנים כחינמיים בקטלוג. גם הם עשויים להשתמש במכסה החודשית של Puter.</label>
+      <div class="controls"><button id="ask" type="button" class="btn primary" disabled>🚀 שלח לבינות שנבחרו</button><button id="stop" type="button" class="btn stop" disabled>עצור בקשות נוספות</button><button id="copyQuestion" type="button" class="btn light">העתק שאלה</button></div>
+      <p id="runStatus" class="live" role="status" aria-live="polite">ראשית יש להתחבר ולטעון את רשימת המודלים.</p><div class="progress" aria-hidden="true"><div id="progressBar"></div></div>
+      <p class="bottom-note">אל תכניס פרטים אישיים של משפחות או פונים לסיוע. כל שאלה נשלחת לספקי מודלים חיצוניים שתבחר.</p>
+    </section>
+    <section class="panel" id="modelsPanel" aria-label="בינות זמינות">
+      <div class="sectiontop"><h2>40 מקומות למודלים החזקים</h2><span id="availableCount" class="tag">ממתין לקטלוג</span></div>
+      <p class="sub">Claude Opus, Sonnet ו-Haiku מועדפים, לצד המודלים המתקדמים האחרים. רק דגמים שמופיעים בקטלוג החי יוצגו כזמינים. כל כרטיס מציג את שם המודל האמיתי. מודל לא זמין לא ייספר כאילו ענה. ניתן לבטל סימון של בינה מסוימת.</p>
+      <div class="provider-list" id="models"></div>
+    </section>
+    <section class="panel hidden" id="reportPanel" aria-label="תוצאות">
+      <div class="sectiontop"><h2>התשובות שהתקבלו</h2><span id="successTag" class="tag">0 תשובות</span></div>
+      <div id="answers" class="provider-list"></div>
+      <div class="controls"><button id="synthesize" class="btn violet" type="button" disabled>✨ צור סיכום משותף</button><button id="copyAll" class="btn light" type="button">העתק את התשובות</button><button id="download" class="btn light" type="button">הורד דוח TXT</button></div>
+    </section>
+    <section class="panel hidden" id="summaryPanel"><h2>הסיכום המשותף</h2><div id="summaryStatus" class="live" role="status">מוכן לסיכום.</div><div id="summaryText" class="answer"></div><div class="controls small"><button class="btn light" id="copySummary" type="button">העתק סיכום</button></div></section>
+    <section class="panel"><div class="sectiontop"><h2>היסטוריה במכשיר הזה</h2><button class="link" type="button" id="clearHistory">מחק היסטוריה</button></div><p class="sub">נשמרים עד 8 דוחות בדפדפן הנוכחי בלבד. המידע לא נשלח למסד הנתונים של הגמ״ח.</p><div id="history" class="history"><span class="tiny">אין היסטוריה.</span></div></section>
+  </div>
+  <footer>גמ״ח ברכת אברהם | אבי חזן | 0533433133<br>אין איסוף תרומות כספיות · אין התחייבות לסיוע · אין פרסום אוטומטי לרשתות<br>חדר המוחות עוזר לחשוב; חשוב לבדוק עובדות והחלטות לפני פעולה.</footer>
+</main>
+<script>
+(function(){'use strict';
+const $=id=>document.getElementById(id);
+const FAMILIES=[
+ {name:'Claude Opus',re:/claude.*opus|opus.*claude/i},
+ {name:'GPT מוביל',re:/\bgpt[-\s]/i},
+ {name:'Gemini Pro',re:/gemini.*pro/i},
+ {name:'Grok חזק',re:/grok/i},
+ {name:'DeepSeek חשיבה',re:/deepseek.*(?:reason|r1|think)|(?:reason|r1|think).*deepseek/i},
+ {name:'Perplexity / Sonar',re:/(?:perplexity|sonar)/i},
+ {name:'Qwen חשיבה',re:/qwen.*(?:reason|qwq|think)|qwq/i},
+ {name:'Mistral Large',re:/mistral.*large/i},
+ {name:'Llama מוביל',re:/llama/i},
+ {name:'Kimi חשיבה',re:/(?:kimi|moonshot)/i},
+ {name:'GLM חשיבה',re:/(?:^|[\/\-])glm[-\d]/i},
+ {name:'MiniMax חזק',re:/minimax/i},
+ {name:'Claude Sonnet',re:/claude.*sonnet|sonnet.*claude/i},
+ {name:'GPT נוסף 1',re:/\bgpt[-\s]/i},
+ {name:'Gemini Flash',re:/gemini.*flash/i},
+ {name:'DeepSeek נוסף 1',re:/deepseek/i},
+ {name:'Grok נוסף',re:/grok/i},
+ {name:'Claude Fable',re:/claude.*fable|fable.*claude/i},
+ {name:'Perplexity נוסף',re:/(?:perplexity|sonar)/i},
+ {name:'Qwen נוסף 1',re:/qwen/i},
+ {name:'Mistral / Mixtral',re:/(?:mistral|mixtral|ministral)/i},
+ {name:'Llama נוסף',re:/llama/i},
+ {name:'Kimi נוסף',re:/(?:kimi|moonshot)/i},
+ {name:'GLM נוסף',re:/(?:^|[\/\-])glm[-\d]/i},
+ {name:'MiniMax נוסף',re:/minimax/i},
+ {name:'Claude Haiku',re:/claude.*haiku|haiku.*claude/i},
+ {name:'GPT נוסף 2',re:/\bgpt[-\s]/i},
+ {name:'Gemini נוסף 1',re:/gemini/i},
+ {name:'DeepSeek נוסף 2',re:/deepseek/i},
+ {name:'Qwen נוסף 2',re:/qwen/i},
+ {name:'Gemma',re:/gemma/i},
+ {name:'Phi',re:/(?:^|[\/\-])phi[-\d]/i},
+ {name:'Command / Cohere',re:/command[-\s]?r|cohere/i},
+ {name:'Nova',re:/amazon.*nova|nova.*amazon/i},
+ {name:'Jamba',re:/jamba/i},
+ {name:'Yi',re:/(?:^|[\/\-])yi[-\d]/i},
+ {name:'GPT נוסף 3',re:/\bgpt[-\s]/i},
+ {name:'Gemini נוסף 2',re:/gemini/i},
+ {name:'Claude נוסף',re:/claude/i},
+ {name:'בינה חזקה נוספת',re:/./}
+];
+let slots=[],catalog=[],running=false,stopRequested=false,controllers=new Set(),run=[],summary='',lastQuestion='';
+function errText(e){if(!e)return 'שגיאה לא ידועה';const msg=String(e?.message||e?.msg||e?.error||e);return msg.slice(0,220)}
+function setNet(text,cls){$('connection').textContent=text;$('netTag').textContent=cls==='ok'?'מחובר':cls==='error'?'שגיאה':'בבדיקה';$('netTag').className='tag '+(cls||'busy')}
+function readText(response){const content=response?.message?.content??response?.content??response?.text??'';if(typeof content==='string')return content.trim();if(Array.isArray(content))return content.map(part=>typeof part==='string'?part:part?.text||'').join('\n').trim();return ''}
+function rank(model){
+ const id=String(model?.id||'').toLowerCase(),nm=String(model?.name||'').toLowerCase();
+ const s=id+' '+nm;const txt=/image|video|audio|realtime|embed|transcri|speech|moderation|tts|vision-only|rerank/;
+ if(txt.test(s))return -1e9;
+ let score=0;
+ if(/opus|ultra|reason|thinking|premier|flagship|max\b|pro\b|large|sonnet/.test(s))score+=200;
+ if(/(?:gpt[-\s]?6|gpt[-\s]?5\.[456]|claude.*5|gemini.*3|gemini.*4|grok.*5|deepseek.*v4|qwen.*4)/.test(s))score+=220;
+ if(/flash|nano|haiku|mini|tiny|small|lite|instruct[-\s]?[37]b|:free/.test(s))score-=120;
+ // Catalogue says :free explicitly. Price and account allowances are still verified before requests.
+ if(id.endsWith(':free'))score+=20;
+ return score;
+}
+function isFree(model){return String(model?.id||'').endsWith(':free') || !!(model?.cost && Number(model.cost.input)===0 && Number(model.cost.output)===0)}
+function assignModels(models){
+ const used=new Set(),clean=(models||[]).filter(m=>m&&typeof m.id==='string'&&m.id.length>1&&rank(m)>-1e8);const final=[];
+ for(const family of FAMILIES){
+  const choices=clean.filter(m=>!used.has(m.id)&&family.re.test(String(m.id)+' '+String(m.name||'')));
+  choices.sort((a,b)=>rank(b)-rank(a));const chosen=choices[0]||null;
+  if(chosen)used.add(chosen.id);
+  final.push({name:family.name,model:chosen,selected:!!chosen&&isFree(chosen),status:chosen?'מוכן':'לא זמין',reply:'',error:''});
+ }
+ const extra=clean.filter(m=>!used.has(m.id)).sort((a,b)=>rank(b)-rank(a));let k=0;
+ for(const slot of final){if(slot.model)continue;const chosen=extra[k++];if(chosen){used.add(chosen.id);slot.name=String(chosen.name||chosen.id).slice(0,45);slot.model=chosen;slot.selected=isFree(chosen);slot.status='מוכן';}}
+ return final;
+}
+function modelStatus(text){return text==='ענה'?'ok':text==='בשאלה'?'busy':text==='שגיאה'?'error':text==='לא זמין'?'error':''}
+function createModelCard(s,i){const el=document.createElement('article');el.className='model'+(s.name.startsWith('Claude')?' claude':'');const head=document.createElement('div');head.className='model-head';const title=document.createElement('div');const h=document.createElement('h3');h.className='name';h.textContent=s.name;const sub=document.createElement('div');sub.className='model-provider';sub.textContent=s.model?.provider||'אין ספק זמין';title.append(h,sub);const badge=document.createElement('span');badge.className='tag '+modelStatus(s.status);badge.textContent=s.status;head.append(title,badge);const id=document.createElement('div');id.className='model-id';id.textContent=s.model?.id||'לא נמצא מודל מתאים';const cost=document.createElement('div');cost.className='model-provider';cost.textContent=s.model?(isFree(s.model)?'מסלול חינמי בקטלוג (עם מגבלות)':'עשוי לצרוך קרדיטים של Puter'):'לא זמין בקטלוג';const label=document.createElement('label');label.className='choose';const check=document.createElement('input');check.type='checkbox';check.checked=s.selected;check.disabled=!s.model||running||($('freeOnly').checked&&!isFree(s.model));check.setAttribute('aria-label','בחירת '+s.name);check.addEventListener('change',()=>{s.selected=check.checked;updateButtons()});const text=document.createElement('span');text.textContent='כלול בשאלה הבאה';label.append(check,text);el.append(head,id,cost,label);if(s.reply||s.error){const reply=document.createElement('div');reply.className='reply';reply.textContent=s.reply||s.error;el.append(reply)}return el;}
+function renderModels(){const wrap=$('models');wrap.replaceChildren();slots.forEach((s,i)=>wrap.append(createModelCard(s,i)));$('availableCount').textContent=slots.filter(s=>s.model).length+' מודלים בקטלוג (זמינות מענה לא אומתה)';}
+function updateButtons(){const active=slots.filter(s=>s.model&&s.selected&&(!$('freeOnly').checked||isFree(s.model))).length;$('ask').disabled=running||!active;$('stop').disabled=!running;$('synthesize').disabled=running||run.filter(r=>r.reply).length<2;$('countTag').textContent=active+' בינות נבחרו';}
+function hintRun(t){$('runStatus').textContent=t}
+function refreshHistory(){const el=$('history');el.replaceChildren();for(const item of loadHistory()){const b=document.createElement('button');b.type='button';const first=document.createElement('div');first.textContent=item.question.slice(0,85);const second=document.createElement('small');second.textContent=item.date+' · '+item.success+' תשובות';b.append(first,second);b.addEventListener('click',()=>{lastQuestion=item.question;$('question').value=item.question;run=item.answers||[];summary=item.summary||'';renderAnswers();if(summary){$('summaryPanel').classList.remove('hidden');$('summaryText').textContent=summary;$('summaryStatus').textContent='סיכום שנשמר בעבר.'}else $('summaryPanel').classList.add('hidden');$('reportPanel').scrollIntoView({behavior:'smooth',block:'start'});});el.append(b)}if(!el.children.length){const s=document.createElement('span');s.className='tiny';s.textContent='אין היסטוריה.';el.append(s)}}
+function loadHistory(){try{const v=JSON.parse(localStorage.getItem('avi-mindroom-history-v1')||'[]');return Array.isArray(v)?v:[]}catch{return []}}
+function saveHistory(){try{const date=new Date().toLocaleString('he-IL');const item={date,question:lastQuestion,answers:run.map(({name,id,reply,error})=>({name,id,reply,error})),success:run.filter(r=>r.reply).length,summary};const list=[item,...loadHistory()].slice(0,8);localStorage.setItem('avi-mindroom-history-v1',JSON.stringify(list));refreshHistory()}catch{hintRun('הדוח הושלם, אך לא ניתן לשמור את ההיסטוריה במכשיר הזה.')}}
+function renderAnswers(){const el=$('answers');el.replaceChildren();$('reportPanel').classList.remove('hidden');run.forEach(r=>{const art=document.createElement('article');art.className='model';const top=document.createElement('div');top.className='model-head';const title=document.createElement('h3');title.className='name';title.textContent=r.name;const badge=document.createElement('span');badge.className='tag '+(r.reply?'ok':r.error?'error':'busy');badge.textContent=r.reply?'ענה':r.error?'לא ענה':'ממתין';top.append(title,badge);const id=document.createElement('div');id.className='model-id';id.textContent=r.id;const txt=document.createElement('div');txt.className='reply';txt.textContent=r.reply||r.error||'ממתין לתשובה...';art.append(top,id,txt);el.append(art)});$('successTag').textContent=run.filter(r=>r.reply).length+' מתוך '+run.length+' ענו';updateButtons();}
+function updateProgress(){const finished=run.filter(r=>r.reply||r.error).length;const ok=run.filter(r=>r.reply).length;$('progressBar').style.width=(run.length?finished/run.length*100:0)+'%';hintRun(finished+' מתוך '+run.length+' הושלמו · '+ok+' תשובות התקבלו');renderAnswers();}
+async function ensurePuter(){if(!window.puter?.ai?.listModels){setNet('Puter עדיין לא נטען. ודא שיש אינטרנט, או רענן את הדף.','error');throw Error('שירות Puter לא נטען')}return window.puter}
+async function login(){try{const p=await ensurePuter();if(p.auth.isSignedIn()){setNet('כבר מחובר לחשבון Puter.','ok');await loadModels();return}setNet('פותח חלון חיבור של Puter...','busy');await p.auth.signIn();setNet('התחברת ל-Puter.','ok');$('login').textContent='✓ מחובר ל-Puter';await loadModels()}catch(e){setNet('החיבור לא הושלם: '+errText(e),'error')}}
+async function loadModels(){if(running)return;try{const p=await ensurePuter();setNet('טוען את רשימת המודלים החיה...','busy');const m=await p.ai.listModels();if(!Array.isArray(m)||!m.length)throw Error('הרשימה ריקה');catalog=m;slots=assignModels(m);renderModels();setNet('נמצאו '+m.length+' דגמים בקטלוג Puter. זמינות תשובה נבדקת רק בשאלה אמיתית.','ok');$('login').textContent=p.auth.isSignedIn()?'✓ מחובר ל-Puter':'התחבר לחשבון Puter';updateButtons();hintRun('מוכן. בחר כמה בינות ישאלו ולחץ על שליחה.')}catch(e){setNet('לא ניתן לטעון את המודלים: '+errText(e),'error');hintRun('לא מתחילים שאלה בלי מודלים מזוהים.')}}
+async function askOne(slot,result,tokens){
+ if(stopRequested){result.error='בוטל לפני שליחה';slot.status='בוטל';updateProgress();return}
+ slot.status='בשאלה';
+ const controller=new AbortController();controllers.add(controller);
+ try{
+  const response=await window.puter.ai.chat('ענה בעברית תקינה, באופן מעשי, מדויק וקצר. אם אינך יודע, כתוב זאת במפורש. אין הבטחת סיוע ואין גיוס כסף.\n\nהשאלה: '+lastQuestion,{model:slot.model.id,normalize:true,max_tokens:tokens,signal:controller.signal});
+  if(controller.signal.aborted)throw new DOMException('בוטל','AbortError');
+  const answer=readText(response);if(!answer)throw Error('המודל לא החזיר טקסט');
+  result.reply=answer.slice(0,9000);slot.status='ענה';slot.reply=result.reply;
+ }catch(e){result.error=controller.signal.aborted?'בוטל לבקשתך; בקשה שכבר הגיעה למודל עלולה לצרוך קרדיטים':errText(e);slot.status=controller.signal.aborted?'בוטל':'שגיאה';slot.error=result.error}
+ finally{controllers.delete(controller);updateProgress();}
+}
+async function ask(){if(running)return;const q=$('question').value.trim();if(q.length<3){hintRun('כתוב שאלה לפחות בת 3 תווים.');$('question').focus();return}const limit=Number($('askCount').value)||3;const selected=slots.filter(s=>s.selected&&s.model&&(!$('freeOnly').checked||isFree(s.model))).slice(0,limit);if(!selected.length){hintRun('אין כרגע מודלים מזוהים. לחץ על בדוק וחבר בינות.');return}const paid=selected.filter(s=>!isFree(s.model)).length;if(!confirm('לשלוח שאלה ל-'+selected.length+' בינות? '+(paid?'שים לב: '+paid+' דגמים לא מסומנים כחינמיים. ':'')+'גם דגמים חינמיים עשויים לנצל מכסה חודשית של Puter. לא נרכוש קרדיטים מתוך האתר. להמשיך?'))return;
+ running=true;stopRequested=false;lastQuestion=q;summary='';run=selected.map(s=>({name:s.name,id:s.model.id,reply:'',error:''}));$('summaryPanel').classList.add('hidden');$('progressBar').style.width='0%';selected.forEach(s=>{s.status='ממתין';s.reply='';s.error=''});renderModels();renderAnswers();updateButtons();let next=0;const tokens=Number($('maxTokens').value)||700;async function worker(){while(next<selected.length){if(stopRequested)return;const index=next++;await askOne(selected[index],run[index],tokens)}}
+ try{await Promise.all(Array.from({length:Math.min(3,selected.length)},()=>worker()));if(stopRequested){for(const r of run)if(!r.reply&&!r.error)r.error='לא נשלח — נעצר לבקשתך';}const successes=run.filter(r=>r.reply).length;hintRun('התקבלו '+successes+' תשובות אמיתיות מתוך '+run.length+' מודלים שנבחרו.');saveHistory()}catch(e){hintRun('שגיאת הפעלה: '+errText(e))}finally{running=false;controllers.clear();updateProgress();renderModels();updateButtons();}}
+function stop(){stopRequested=true;controllers.forEach(c=>c.abort());hintRun('בקשות בהמתנה נעצרו, ובקשות פעילות בוטלו. אם בקשה כבר הגיעה למודל, עדיין ייתכן שימוש בקרדיטים.');}
+async function synthesize(){const ok=run.filter(r=>r.reply);if(ok.length<2){hintRun('לסיכום משותף דרושות לפחות שתי תשובות אמיתיות.');return}const p=window.puter;if(!p?.ai)return;const chosen=slots.find(s=>s.model&&s.name.startsWith('GPT')&&isFree(s.model))?.model||slots.find(s=>s.model&&isFree(s.model))?.model||(!$('freeOnly').checked?slots.find(s=>s.model)?.model:null);if(!chosen){hintRun('אין מודל חינמי מאומת ליצירת סיכום; לא נשלחה בקשה.');return;}if(!isFree(chosen)&&!confirm('יצירת סיכום בעזרת '+chosen.id+' עשויה לצרוך קרדיטים. להמשיך?'))return;const prompt='ערוך סיכום משותף בעברית של התשובות הבאות בלבד, בלי להמציא עובדות. כתוב: 1. הסכמות 2. מחלוקות 3. תוכנית פעולה קצרה 4. מה לבדוק. שאלה מקורית: '+lastQuestion+'\n\n'+ok.map((r,i)=>'תשובה '+(i+1)+' ('+r.name+', '+r.id+'):\n'+r.reply.slice(0,1800)).join('\n\n');$('summaryPanel').classList.remove('hidden');$('summaryText').textContent='';$('summaryStatus').textContent='יוצר סיכום בעזרת '+chosen.id+'...';$('synthesize').disabled=true;try{const result=await p.ai.chat(prompt,{model:chosen.id,normalize:true,max_tokens:1050});const text=readText(result);if(!text)throw Error('לא התקבל סיכום');summary=text;$('summaryText').textContent=summary;$('summaryStatus').textContent='סיכום של '+ok.length+' תשובות שנקראו. המסקנות נוצרו על ידי '+chosen.id+'.';saveHistory()}catch(e){$('summaryStatus').textContent='יצירת הסיכום נכשלה: '+errText(e);$('summaryText').textContent='התשובות הנפרדות נשמרו וניתן להעתיקן.'}finally{updateButtons()}}
+function reportText(){return 'חדר המוחות — גמ״ח ברכת אברהם\nשאלה: '+lastQuestion+'\n\n'+run.map(r=>r.name+' ['+r.id+']\n'+(r.reply||'לא ענה: '+r.error)).join('\n\n-----\n\n')+(summary?'\n\nסיכום משותף\n'+summary:'')+'\n\nאין להסתמך על התשובות בלי בדיקה.'}
+async function copy(text){if(!text){hintRun('אין עדיין תוכן להעתקה.');return}try{await navigator.clipboard.writeText(text);hintRun('הטקסט הועתק בהצלחה.')}catch{const box=document.createElement('textarea');box.value=text;box.style.position='fixed';box.style.top='0';document.body.append(box);box.select();try{document.execCommand('copy');hintRun('הטקסט הועתק.')}catch{hintRun('ההעתקה נחסמה בדפדפן הזה.')}box.remove()}}
+function download(){if(!run.length)return;const txt='\uFEFF'+reportText();const url=URL.createObjectURL(new Blob([txt],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='avi-mind-room-report.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+$('freeOnly').addEventListener('change',()=>{if($('freeOnly').checked)slots.forEach(s=>{if(s.model&&!isFree(s.model))s.selected=false;});renderModels();updateButtons();hintRun($('freeOnly').checked?'מצב בטוח פעיל — רק דגמים המסומנים כחינמיים בקטלוג.':'מצב חינמי בלבד כבוי — אפשר לבחור ידנית גם דגמים בתשלום, אך כל שאלה תדרוש אישור.');});$('login').addEventListener('click',login);$('load').addEventListener('click',loadModels);$('ask').addEventListener('click',ask);$('stop').addEventListener('click',stop);$('synthesize').addEventListener('click',synthesize);$('copyQuestion').addEventListener('click',()=>copy($('question').value));$('copyAll').addEventListener('click',()=>copy(reportText()));$('copySummary').addEventListener('click',()=>copy(summary));$('download').addEventListener('click',download);$('question').addEventListener('input',()=>{try{localStorage.setItem('avi-mindroom-draft-v1',$('question').value)}catch{}});$('clearHistory').addEventListener('click',()=>{if(confirm('למחוק את כל ההיסטוריה במכשיר הזה?')){try{localStorage.removeItem('avi-mindroom-history-v1')}catch{}refreshHistory()}});
+try{$('question').value=localStorage.getItem('avi-mindroom-draft-v1')||''}catch{}
+slots=FAMILIES.map(f=>({name:f.name,model:null,selected:false,status:'ממתין',reply:'',error:''}));renderModels();refreshHistory();updateButtons();
+window.addEventListener('load',()=>{if(window.puter){const signed=window.puter.auth?.isSignedIn?.();$('login').textContent=signed?'✓ מחובר ל-Puter':'התחבר לחשבון Puter';setNet(signed?'מחובר. לחץ על בדוק וחבר בינות.':'לחץ להתחברות או לבדיקת מודלים.','');}else setNet('ספריית Puter לא נטענה. בדוק חיבור לאינטרנט ורענן.','error');});
+})();
+</script>
+</body>
+</html>
